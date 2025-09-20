@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bike Shop - Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Display</a>
+    <a href="info.html">Information</a>
+    <a href="order.html">Order</a>
+  </nav>
+
+  <div class="container">
+    <h2>Place Your Order</h2>
+
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+
+      <label for="part">Select Bike Part:</label>
+      <select id="part" required>
+        <option value="">--Choose a part--</option>
+        <option>Mountain Bike Wheel - 1,000php</option>
+        <option>Comfort Saddle - 500php</option>
+        <option>Aluminum Pedals - 200php</option>
+      </select>
+
+      <input type="number" placeholder="Quantity" min="1" required>
+
+      <textarea rows="5" placeholder="Write here your full address"></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Bike Parts Shop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
